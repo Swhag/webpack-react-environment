@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
+  devtool: 'inline-source-map',
   entry: {
     app: './src/index.js',
   },
@@ -39,7 +40,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'React App',
+      title: 'KickStore',
       filename: 'index.html',
       template: 'src/template.html',
     }),
