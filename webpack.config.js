@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'KickStore',
+      title: 'React App',
       filename: 'index.html',
       template: 'src/template.html',
     }),
